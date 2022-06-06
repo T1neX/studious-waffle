@@ -4,10 +4,15 @@
 }
 
 h1 {
-    color: blueviolet;
+    color: bisque;
+    font-size: 60px;
     width: 100%;
+    height: 300px;
+    line-height: 200px;
     font-weight: bold;
     position: relative;
     text-align: center;
-    background-image: url(https://cdn.wallpapersafari.com/86/3/oCYBNS.jpg);
+    vertical-align: middle;
+    line-height: 300px;
+    background-image: url(https://media.istockphoto.com/photos/brick-wall-picture-id497944862?b=1&k=20&m=497944862&s=170667a&w=0&h=Fm5cJDh74st0zuSJ_SW78l8GXu5cfkfCCmjQmrTTr6U=);
 }
