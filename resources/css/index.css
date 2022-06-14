@@ -30,3 +30,13 @@ form {
     position: relative;
     text-align: center;
 }
+
+#dropdown {
+    position: relative;
+    margin-top: 30px;
+}
+
+#askr {
+    position: relative;
+    margin-bottom: 0;
+}
