@@ -16,18 +16,15 @@
             <br>
             <input type="checkbox" id="question" value="likeswaffles" name="waffleslike">
             <label id="confirmation" for="question">Confirm that you like Waffles</label>
-        </form>
-        <section>
-            <form id="radio">
-                <h2 id="askr">Do you like waffle toppings?</h2>
+          <section id="radio">
+                <h2 id="askr">Do you like <a href="https://en.wikipedia.org/wiki/Waffle" title="Wiki Waffle Page" target="_blank">waffle</a> toppings?</h2>
                 <input type="radio" id="yes" name="top-answer" value="yes" required>
                 <label for="yes">Yes</label>
                 <input type="radio" id="no" name="top-answer" value="no" required>
                 <label for="no">No</label>
                 <br>
-                <input type="submit" id="submission" value="submit">
-            </form>
-            <form id="dropdown">
+          </section>
+          <section id="dropdown">
                 <label for="top-choose">What toppings do you like?</label>
                 <select id="top-choose" name="top-choose">
                     <option value="salmon">Salmon</option>
@@ -36,8 +33,9 @@
                     <option value="mayoandham">Mayo and Ham</option>
                     <option value="friedonion">Fried Onion</option>
                 </select>
-            </form>
-            
-        </section>
+          </section>
+          <br>
+          <input type="submit" id="submission" value="submit">
+        </form>
     </body>
 </html>
